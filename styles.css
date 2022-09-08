@@ -1,0 +1,236 @@
+/*ARIMO IS FOR TITLES ETC IT LOOKS GOOD IN BOLD*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: hsla(263, 81%, 42%, 1);
+
+  background: hsla(189, 45%, 52%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(189, 45%, 52%, 1) 0%,
+    hsla(190, 45%, 78%, 1) 55%,
+    hsla(190, 46%, 80%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(189, 45%, 52%, 1) 0%,
+    hsla(190, 45%, 78%, 1) 55%,
+    hsla(190, 46%, 80%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(189, 45%, 52%, 1) 0%,
+    hsla(190, 45%, 78%, 1) 55%,
+    hsla(190, 46%, 80%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4DABBC", endColorstr="#AFD9E1", GradientType=1);
+
+  font-family: 'Nunito', monospace, sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 5.5em;
+  color: whitesmoke;
+  margin-top: 3.3rem;
+  font-weight: 300;
+  text-shadow: 3px 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+.cityQuery {
+  text-align: center;
+  vertical-align: middle;
+  margin: 10rem 0 0 0;
+}
+
+#cityName,
+#cityName:active,
+#cityName:focus {
+  border: 2px solid white;
+  background-color: transparent;
+  width: 45%;
+  padding: 1rem 0;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  color: whitesmoke;
+  font-family: inherit;
+  font-weight: 500;
+  outline: none;
+}
+
+::placeholder{
+  opacity: 0.4;
+}
+
+
+#submitButton{
+  background: transparent;
+  margin-top: 2rem;
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin-left: -70px;
+  margin-top: 10px;
+  font-size: 2em;
+  vertical-align: middle;
+  color: white;
+
+}
+
+#submitButton:hover{
+  color: aquamarine;
+}
+
+#submitButton:active{
+  color: grey;
+}
+
+.inner-container {
+  border-radius: 10px;
+  width: 30%;
+  min-width: 436px;
+  height: 44px;
+  margin-top: calc(100% - ((100% - 44px)));
+  margin-bottom: calc(100% - (100% - 44px));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: hsla(232, 43%, 46%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(232, 43%, 46%, 1) 0%,
+    hsla(158, 73%, 68%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(232, 43%, 46%, 1) 0%,
+    hsla(158, 73%, 68%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    60deg,
+    hsla(232, 43%, 46%, 1) 0%,
+    hsla(158, 73%, 68%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4351A8", endColorstr="#74E9BF", GradientType=1 );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FEAA8", endColorstr="#19BBCE", GradientType=1 );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+
+  -webkit-box-shadow: -1px 4px 20px -6px #000000;
+  box-shadow: -1px 4px 20px -6px #000000;
+}
+
+.main-card {
+  display: inline-block;
+  /* background-color: brown; */
+  /* font-family: 'ARIMO', monospace,sans-serif; */
+  color: white;
+  font-weight: 100;
+  width: 430px;
+  max-width: 430px;
+}
+
+.backButton{
+  margin-top: 6px;
+  margin-left: -10px;
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.backButton:hover{
+  color: rgb(235, 235, 235);
+}
+
+.backButton:active{
+  color: grey;
+}
+
+.temperature {
+  display: block;
+  font-size: 6em;
+  text-align: center;
+  /* position: relative;
+  top: -35px; */
+  left: 0px;
+  /* background-color: #000000; */
+  margin-top: 1.5rem; 
+  margin: 0.2rem auto 0;
+}
+
+.city {
+  margin: 2rem auto;
+  font-size: 3em;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 4rem;
+
+}
+
+.country{
+  font-size: 2em;
+  border-color: aliceblue;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.feel {
+  font-size: 1.5em;
+  /* background-color: purple; */
+  margin: 5rem 0 0 0;
+}
+
+.right {
+  display: block;
+  text-align: right;
+  float: right;
+}
+
+.humidity {
+  font-size: 1.7em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.humid::after{
+  content: '%';
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.showSearchBar{
+  display: block;
+}
+
+
+@media only screen and (max-width: 480px){
+
+}

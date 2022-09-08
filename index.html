@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--ICONS-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Nunito:ital,wght@0,200;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Weather Info</title>
+  </head>
+  <body>
+    <header>Weather Today</header>
+
+    <div class="cityQuery" id="cityQuery">
+      <input
+        type="text"
+        id="cityName"
+        name="city"
+        placeholder="Enter city name"
+      />
+     
+        <button onclick="btnClick()" id="submitButton" type="submit"><ion-icon name="search-outline" ></ion-icon>
+        </button>
+    </div>
+
+    <div class="inner-container hide" id="inner-container">
+      <div class="main-card">
+        
+        <button
+          class="backButton"
+          type="button"
+          id="backBtnClick"
+          onclick="backBtnClick()"
+        >
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <p class="temperature">
+          <span id="temperature-main">78</span>
+          <span>°</span><span class="unit" id="unit">C</span>
+        </p>
+        <div class="city" id="city">City</div>
+        <div class="country" id="country">II</div>
+
+        <div class="feel">
+          Feels Like
+          <span class="right">
+            <span id="feelTemp">44</span>
+            <span>°</span><span class="unit" id="idunit">C</span>
+          </span>
+        </div>
+        <div class="humidity">
+          Humidity
+          <span class="right humid" id="humidity-percentage">
+            86
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./index.js"></script>
