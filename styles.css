@@ -105,7 +105,7 @@ header {
   margin-bottom: calc(100% - (100% - 44px));
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem;
+  padding: 1.2rem;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -143,12 +143,12 @@ header {
 
 .main-card {
   display: inline-block;
-  /* background-color: brown; */
-  /* font-family: 'ARIMO', monospace,sans-serif; */
+  max-height: 490px;
   color: white;
   font-weight: 100;
   width: 430px;
   max-width: 430px;
+  padding-bottom: 2rem;
 }
 
 .backButton{
@@ -172,17 +172,14 @@ header {
   display: block;
   font-size: 6em;
   text-align: center;
-  /* position: relative;
-  top: -35px; */
   left: 0px;
-  /* background-color: #000000; */
   margin-top: 1.5rem; 
   margin: 0.2rem auto 0;
 }
 
 .city {
   margin: 2rem auto;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   overflow: hidden;
   margin-top: 4rem;
@@ -231,6 +228,56 @@ header {
 }
 
 
+@media only screen and (max-width: 680px){
+
+  #submitButton{
+    /* margin-left: 7px; */
+    margin-top: 11px;
+  }
+
+  ::placeholder{
+    font-size: 1em;
+  }
+
+  #cityName,
+  #cityName:active,
+  #cityName:focus{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+  }
+
+  header{
+    font-size: 4em;
+  }
+}
+
 @media only screen and (max-width: 480px){
 
+  #submitButton{
+    margin-left: 7px;
+    margin-top: 11px;
+    margin-right: -66px;
+  }
+
+  .inner-container{
+    min-width: 344px;
+  }
+
+  .humidity{
+    font-size: 1em;
+  }
+
+  .main-card{
+    max-width: 300px;
+  }
+
+  .backButton{
+    margin-left: -20px;
+    font-size: 1.75em;
+  }
+  .feel{
+    margin: 3rem 0 0 0;
+    font-size: 1em;
+  }
 }
