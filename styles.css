@@ -260,6 +260,16 @@ header {
     margin-right: -66px;
   }
 
+  header{
+    font-size: 3em;
+  }
+
+  #cityName,
+  #cityName:active,
+  #cityName:focus{
+    font-size: 1em;
+  }
+
   .inner-container{
     min-width: 344px;
   }
@@ -280,4 +290,9 @@ header {
     margin: 3rem 0 0 0;
     font-size: 1em;
   }
+
+  ::placeholder{
+    font-size: 1em;
+  }
+
 }
