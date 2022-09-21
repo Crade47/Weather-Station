@@ -1,7 +1,7 @@
 # Weather-Station
 
 
-### This is a responsive website that tells the current temprature of any city using Openweather API
+### This is a responsive website that tells the current temprature of any city using OpenWeatherMap API
 
 ![image](https://user-images.githubusercontent.com/76691246/191585127-d8e43969-b3cd-4f54-8e3d-a6c8dbd6be4f.png)
 
