@@ -18,4 +18,9 @@
 - What the current temprature feels like.
 - Current Humidity.
 
-This is a responsive webpage which looks good on device of any screen size.
+### The back button takes us back to the home screen.
+
+![image](https://user-images.githubusercontent.com/76691246/191586757-6b35ac31-3820-4eb1-a027-83c093a6df10.png)
+![image](https://user-images.githubusercontent.com/76691246/191586830-29d44d0e-89fa-40d7-9de6-e06cfbd5859f.png)
+
+
