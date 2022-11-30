@@ -3,7 +3,7 @@ const LIMIT = '1';
 const UNIT = 'metric'
 
 const coOrdinates =  async(CITY_NAME) =>{
-    let response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${CITY_NAME}&limit=${LIMIT}&appid=${API_KEY}`)
+    let response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${CITY_NAME}&limit=${LIMIT}&appid=${API_KEY}`)
     let data = await response.json();
     let coOrd = data;
     // console.log(coOrd);
